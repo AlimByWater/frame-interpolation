@@ -113,7 +113,7 @@ def interpolate_recursively_from_files(
     The interpolated frames (including the inputs).
   """
   n = len(frames)
-  print('+++++++++++++++++++++++++++++++' + n)
+  print('+++++++++++++++++++++++++++++++')
   print(*frames)
   num_frames = (n - 1) * (2**(times_to_interpolate) - 1)
   bar = tqdm(total=num_frames, ncols=100, colour='green')
